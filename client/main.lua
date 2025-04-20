@@ -77,129 +77,160 @@ Citizen.CreateThread(function()
 					if jbibTexture == 6 then
 						jbibTexture = 7
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 9 or jbibTexture == 10 then
 						jbibTexture = 11
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 11 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--vneck broken textures
 				elseif jbib == 1 then
 					if jbibTexture == 2 then
 						jbibTexture = 3
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 9 or jbibTexture == 10 then
 						jbibTexture = 11
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 13 then
 						jbibTexture = 14
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 14 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--top broken textures
 				elseif jbib == 2 then
 					if jbibTexture ~= 9 then
 						jbibTexture = 9
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--coat broken textures
 				elseif jbib == 4 then
 					if jbibTexture == 1 then
 						jbibTexture = 2
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 3 and jbibTexture < 11 then
 						jbibTexture = 11
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 12 or jbibTexture == 13 then
 						jbibTexture = 14
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 14 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--tank broken textures
 				elseif jbib == 5 then
 					if jbibTexture > 2 and jbibTexture < 7 then
 						jbibTexture = 7
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 7 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--leather jacket broken textures
 				elseif jbib == 6 then
 					if jbibTexture == 2 then
 						jbibTexture = 3
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 3 and jbibTexture < 11 then
 						jbibTexture = 11
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 7 then
 						jbibTexture = 8
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 10 then
 						jbibTexture = 11
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 11 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--tee broken textures
 				elseif jbib == 8 then
 					if jbibTexture > 0 and jbibTexture < 10 then
 						jbibTexture = 10
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 11 or jbibTexture == 12 then
 						jbibTexture = 13
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 14 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--polo shirt broken textures
 				elseif jbib == 9 then
 					if jbibTexture == 8 or jbibTexture == 9 then
 						jbibTexture = 10
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--jacket broken textures
 				elseif jbib == 10 then
 					if jbibTexture > 2 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--vest broken textures
 				elseif jbib == 11 then
 					if jbibTexture > 1 and jbibTexture < 7 then
 						jbibTexture = 7
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 7 and jbibTexture < 14 then
 						jbibTexture = 14
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 14 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--untucked broken textures
 				elseif jbib == 12 then
 					if jbibTexture > 11 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--tucked broken textures
 				elseif jbib == 13 then
 					if jbibTexture == 4 then
 						jbibTexture = 5
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 5 and jbibTexture < 13 then
 						jbibTexture = 13
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 13 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				end
 			--female broken textures
@@ -209,119 +240,147 @@ Citizen.CreateThread(function()
 					if jbibTexture == 3 then
 						jbibTexture = 4
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 7 or jbibTexture == 8 then
 						jbibTexture = 9
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 10 then
 						jbibTexture = 11
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 12 or jbibTexture == 13 then
 						jbibTexture = 14
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 14 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--hoodie broken textures
 				elseif jbib == 3 then
 					if jbibTexture > 4 and jbibTexture < 10 then
 						jbibTexture = 10
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 14 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--tank broken textures
 				elseif jbib == 4 then
 					if jbibTexture ~= 13 and jbibTexture ~= 14 then
 						jbibTexture = 13
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--cropped tank broken textures
 				elseif jbib == 5 then
 					if jbibTexture > 1 and jbibTexture < 7 then
 						jbibTexture = 7
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 8 then
 						jbibTexture = 9
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 9 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--tux broken textures
 				elseif jbib == 6 then
 					if jbibTexture == 3 then
 						jbibTexture = 4
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 4 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--blazer broken textures
 				elseif jbib == 7 then
 					if jbibTexture > 2 and jbibTexture < 8 then
 						jbibTexture = 8
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 8 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--cropped biker broken textures
 				elseif jbib == 8 then
 					if jbibTexture > 2 and jbibTexture < 12 then
 						jbibTexture = 12
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 12 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--shirt broken textures
 				elseif jbib == 9 then
 					if jbibTexture > 14 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--track jacket broken textures
 				elseif jbib == 10 then
 					if jbibTexture > 2 and jbibTexture < 7 then
 						jbibTexture = 7
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 8 or jbibTexture == 9 then
 						jbibTexture = 10
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 12 then
 						jbibTexture = 13
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture == 14 then
 						jbibTexture = 15
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--racerback broken textures
 				elseif jbib == 11 then
 					if jbibTexture > 2 and jbibTexture < 10 then
 						jbibTexture = 10
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 11 and jbibTexture < 15 then
 						jbibTexture = 15
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				elseif jbib == 12 then
 					if jbibTexture < 7 or jbibTexture > 9 then
 						jbibTexture = 7
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				--bikini broken textures
 				elseif jbib == 15 then
 					if jbibTexture == 1 or jbibTexture == 2 then
 						jbibTexture = 3
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 3 and jbibTexture < 10 then
 						jbibTexture = 10
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					elseif jbibTexture > 11 then
 						jbibTexture = 0
 						SetPedComponentVariation(playerPed, 11, jbib, jbibTexture, 2)
+						TriggerServerEvent("taskchecker:syncClothing", 11, jbib, jbibTexture)
 					end
 				end
 			end
@@ -333,14 +392,18 @@ Citizen.CreateThread(function()
 						jbibTexture = 0
 					end
 					SetPedComponentVariation(playerPed, 11, 29, jbibTexture, 2)
+					TriggerServerEvent("taskchecker:syncClothing", 11, 29, jbibTexture)
 				elseif (jbib == 17) then
 					SetPedComponentVariation(playerPed, 11, 29, 15, 2)
+					TriggerServerEvent("taskchecker:syncClothing", 11, 29, 15)
 				end
 			elseif isFemale and armour == 0 and (jbib == 29) then
 				if (jbibTexture < 15) then
 					SetPedComponentVariation(playerPed, 11, 9, jbibTexture, 2)
+					TriggerServerEvent("taskchecker:syncClothing", 11, 9, jbibTexture)
 				elseif (jbibTexture == 15) then
 					SetPedComponentVariation(playerPed, 11, 17, 0, 2)
+					TriggerServerEvent("taskchecker:syncClothing", 11, 17, 0)
 				end
 			end
 			
@@ -357,12 +420,25 @@ Citizen.CreateThread(function()
             -- Condition 1: no armor and active task
             if armour == 0 and task ~= 0 and expectedTask ~= -1 and fixedTask == 0 and (isMale or isFemale) then
                 SetPedComponentVariation(playerPed, 9, 0, 0, 2)
+				TriggerServerEvent("taskchecker:syncClothing", 9, 0, 0)
                 print("[taskchecker] Compatible armor broken: cleaning task model (taskDrawable 9).")
             -- Condition 2: with armor but has not specific task
             elseif armour > 0 and expectedTask and expectedTask ~= -1 and (task ~= expectedTask or taskTexture ~= expectedTaskTexture) and (isMale or isFemale) then
                 SetPedComponentVariation(playerPed, 9, expectedTask, expectedTaskTexture, 2)
+				TriggerServerEvent("taskchecker:syncClothing", 9, expectedTask, expectedTaskTexture)
                 print("[taskchecker] Compatible armor detected: setting task model (taskDrawable 9) to " .. expectedTask)
             end
+        end
+    end
+end)
+
+RegisterNetEvent("taskchecker:changeClothing", function(playerId, component, drawable, texture)
+
+    local targetPlayer = GetPlayerFromServerId(playerId)
+    if targetPlayer ~= -1 then
+        local targetPed = GetPlayerPed(targetPlayer)
+        if DoesEntityExist(targetPed) then
+            SetPedComponentVariation(targetPed, component, drawable, texture, 0)
         end
     end
 end)

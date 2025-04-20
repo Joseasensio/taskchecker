@@ -2,8 +2,6 @@
 
 The purpose of this script is to add a visual component when the player has armour. Works with vanilla components, addon components can be added.
 
-Client side script.
-
 For addon clothing, select the used release within tasklist.lua and input the most suitable task model for each new jbib.
 Available models:
 -male: 1 to 11 ( 0 for no visible model).
